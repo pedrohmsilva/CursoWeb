@@ -1,0 +1,53 @@
+#box {
+	width: 300px;
+	height: 300px;
+	/*background: radial-gradient(white, blue);*/
+	margin: 50px;
+	padding: 50px;
+	background: gray;
+	box-shadow: -10px 10px 10px red, 10px 10px 10px blue;
+	/*box-sizing: border-box;*/
+	/*border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;*/
+}
+
+#box h1 {
+	/*background: rgba(255, 255, 255, 0.5);*/
+	border-bottom: 2px solid #FFF;
+	text-shadow: 0px 10px rgba(0,0,0,0.5);
+	color: white;
+}
+
+@keyframes animacao-box {
+
+	from {background: red; border-radius: 0px; top: 0; left: 0;}
+	to {background: yellow; border-radius: 300px; top: 200px; left: 200px;}
+
+}
+
+#box-animacao {
+	width: 300px;
+	height: 300px;
+	background: red;
+	position: relative;
+	/*animation-name: animacao-box;
+	animation-duration: 5s;
+	animation-delay: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;*/
+	animation: animacao-box 5s 0s 2 alternate;
+}
+
+#box-transicao {
+	width: 300px;
+	height: 300px;
+	background: orange;
+}
+
+#box-transicao:hover {
+	color: white;
+	width: 400px;
+	background: black;
+	transition: all 2s;
+}

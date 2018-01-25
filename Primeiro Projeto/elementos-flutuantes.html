@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html>
+	
+	<head>
+		<title>Projeto</title>
+		<meta charset="utf-8" />
+
+		<style type="text/css">
+
+			body {
+				background: green;
+			}
+			
+			#conteudo-principal {
+				background: white;
+				width: 900px;
+				margin: 30px auto;
+				height: 2500px;
+				position: relative;
+			}
+
+			.caixa {
+				width: 200px;
+				height: 200px;
+				background-color: red;
+				color: white;
+				margin: 30px;
+			}
+
+			#relative {
+				position: relative;
+				left: -60px;
+			}
+
+			#absolute {
+				position: absolute;
+				bottom: 0;
+			}
+
+			#fixed {
+				position: fixed;
+				top: 0;
+				left: 0;
+				margin: 0;
+			}
+			
+		</style>
+
+	</head>
+
+	<body>
+
+		<div id="conteudo-principal">
+			<h1>teste</h1>
+
+			<div id="relative" class="caixa">
+				Relative
+			</div>
+
+			<div id="absolute" class="caixa">
+				Absolute
+			</div>
+
+			<div id="fixed" class="caixa">
+				Fixed
+			</div>
+
+		</div>
+		
+	</body>
+
+</html>
