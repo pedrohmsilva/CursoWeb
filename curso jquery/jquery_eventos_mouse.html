@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Jquery eventos - mouse</title>
+
+	<!-- cdn -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+	<script type="text/javascript">
+		
+		$(document).ready( function() {
+			//Click
+			//Dblclick
+			//Mousedown
+			//Mouseover
+			//Mouseout
+
+
+			/*$('#div1').click( function() {
+				alert('Clicado');
+			});*/
+
+			/*$('#div1').dblclick( function() {
+				alert('Clicado 2x');
+			});*/
+
+			/*$('#div1').mousedown( function() {
+				alert('Clicado');
+			});*/
+
+			/*$('#div1').mouseover( function() {
+				alert('Mouse ok');
+			});*/
+
+			$('#div1').mouseout( function() {
+				alert('Mouse ok');
+			});
+		});
+
+	</script>
+	
+</head>
+<body>
+
+	<div id="div1" style="height: 150px; width: 150px; background: #CCC;">
+		
+	</div>
+	
+</body>
+</html>

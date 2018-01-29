@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Jquery eventos - formulários</title>
+
+	<!-- cdn -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+	<script type="text/javascript">
+		//Focus
+		//Blur
+		//Change
+
+		$(document).ready( function() {
+			/*$('.campo1').focus( function() {
+				console.log('Foco');
+			});*/
+
+			/*$('.campo1').blur( function() {
+				console.log('Perdeu foco');
+			});*/
+
+			$('.campo1').change( function() {
+				console.log('Mudou');
+			});
+		});
+		
+
+	</script>
+	
+</head>
+<body>
+
+	<select class="campo1">
+		<option value="1">1</option>
+		<option value="2">2</option>
+	</select>
+
+</body>
+</html>

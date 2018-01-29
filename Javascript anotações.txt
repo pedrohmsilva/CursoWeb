@@ -1,0 +1,47 @@
+- Código Javascript em página Html
+<script src="text/javascript">
+</script>
+[ou]
+<script language="javascript" src="meu_javascript.js"></script>
+
+- If/else
+Pode-se usar if else (condicao)
+
+- Operadores de comparação
+=== idêntico -> valores iguais e do mesmo tipo
+!== não idêntico -> valores diferentes e/ou de tipos diferentes
+Para diferença pode-se usar != ou <>
+
+
+Eventos
+onclick - quando ocorre o clique
+ondblclick - quando ocorre duplo clique
+onmousedown - acionado no clique
+onmouseover - quando passa mouse sobre
+oumouseout - quando cursor sai de um local
+
+onkeydown - quando tecla é pressionada
+onkeypress - quando tecla é pressionada, mas nem todas (ex: alt, ctrl, esc, shift)
+onkeyup - quando a tecla é liberada
+
+onload - quando a página encerra o carregamento. Associado a tag body.
+onresize - quando a página ou frame é redimensionado.
+
+Eventos de formulário
+onfocus - quando recebe o foco
+onblur - quando perde o foco
+onchange - quando estado é modificado
+
+window.location.href -> muda o endereço da página
+
+window.location.search -> busca parâmetros na URL
+
+.innerHTML -> adiciona valor entre tags HTML
+
+document.createElement("img") -> permite adicionar componente HTML
+
+setTimeout -> executa uma função a cada milissegundos
+
+clearTimeout -> função que limpa a chamada da função setTimeout
+
+setAttribute -> define atributo de algum componente

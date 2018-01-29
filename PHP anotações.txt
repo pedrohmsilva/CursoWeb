@@ -1,0 +1,70 @@
+Comandos de impressão - entre aspas simples ou duplas
+print "Mensagem"
+echo "Mensagem"
+Aspas duplas identificam variáveis
+
+Comentários
+// comentário de uma linha
+# comentário de uma linha
+/*
+comentário
+de
+múltiplas
+linhas
+*/
+
+
+Formatos de array
+$lista_compras[1] = 'Feijão';
+[ou]
+$lista_compras = array(1 => 'Feijão', 2 => 'Arroz');
+
+Para apresentar arrays
+var_dump($array) [ou] print_r -> acessa cada uma das posições do array e realiza sua impressão uma por vez
+var_export -> exibe array.
+
+Comando para servidor PHP
+php -S localhost:3000
+
+Nos forms
+O atributo action determina para qual página será enviado o formulário com seus dados.
+O atributo method especifica o método de envio de dados get ou post.
+
+Foreach
+foreach(array as variavel)
+
+require_once("arquivo.php") -> requer o arquivo apenas uma vez. Caso não encontre o arquivo, apresenta erro fatal.
+include("arquivo") [ou] include "arquivo" -> inclui arquivo externo
+
+isset() -> verifica se variável foi iniciada. Retorna false quando a variável não existe ou quando tem valor null.
+empty() -> retorna true: valores '', 0, '0', false, null, array();
+is_numeric() -> testa se variável é um número ou uma string numérica.
+
+strtolower  -> converter para letras minúsculas.
+strtoupper  -> converter para letras maiúsculas.
+ucfirst     -> converter apenas a primeira letra para maiúscula.
+strlen      -> conta os caracteres da string.
+str_replace(".", ",", $texto) -> substituir string por outra string.
+substr($texto, [posição inicial], [quantidade de caracteres])      -> retorna parte de uma string.
+
+//Y = ano / m = mês / d = dia / H ou h = horas / i = minutos
+date("Y/m/d");
+strtotime -> converte string para date
+
+Funções de array
+is_array($array) -> retorna true se for array, senão retorna false.
+in_array('parametro', $array) -> verifica se parametro existe no array e retorna true ou false.
+array_keys($array) -> retorna um array apenas com as chaves.
+sort -> ordena um array. Não mantém a relação índice e valor. Retorna true caso tenha ocorrido com sucesso.
+asort -> ordena um array. Mantém a relação índice e valor. Retorna true caso tenha ocorrido com sucesso.
+count($array) -> retorna o número de componentes de um array.
+array_merge($array1, $array2) -> funde arrays.
+explode('/', $data) -> divide string com base em divisor e monta array com os pedaços.
+implode('/', $data) -> junta componentes de um array em uma string com um divisor.
+
+Public -> pode alterar dentro ou fora da classe.
+Private -> não pode ser alterado de fora da classe.
+Protected -> pode ser alterado em subclasses.
+
+__construct -> chamado automaticamente quando novo objeto é criado.
+__destruct -> chamado automaticamente quando objeto é retirado da memória.

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Jquery eventos - teclado</title>
+
+	<!-- cdn -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+	<script type="text/javascript">
+		//Keydown
+		//Keypress
+		//Keyup
+
+		$(document).ready( function() {
+			/*$('#campo1').keydown( function() {
+				alert('Keydown');
+			});*/
+
+			/*$('#campo1').keypress( function() {
+				alert('Keypress');
+			});*/
+
+			$('#campo1').keyup( function() {
+				alert('Keyup');
+			});
+		});
+		
+
+	</script>
+	
+</head>
+<body>
+
+	<input id="campo1" type="text">
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+Caso ocorra problemas com a porta utilizada pelo XAMPP:
+Abrir prompt do Windows
+Digitar tasklist
+Procurar PID
+Digitar taskkill /pid [número do PID] /F
+
+Para testar no navegador:
+Digitar na URL: localhost

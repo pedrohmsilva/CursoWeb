@@ -1,0 +1,12 @@
+.show() -> aparece componente
+
+.hide() -> desaparece componente
+
+.ready() -> quando o DOM estiver carregado
+
+Formulários
+.focus() -> Quando componente recebe foco
+
+.blur() -> Quando componente perde foco
+
+.change() -> Quando componente tem seu estado alterado
