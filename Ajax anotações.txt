@@ -1,0 +1,24 @@
+- Métodos
+open(string method, string url, string asynch)
+Prepara a requisição HTTP. Especifica o método (GET, POST) e se será assíncrona (por padrão é true). Não retorna dados.
+
+send(string)
+Envia uma requisição HTTP.
+
+- Propriedades
+Onreadystatechange
+Permite chamar uma função a cada mudança de status.
+
+readyState
+0 - Objeto não iniciado. O método open() não foi chamado.
+1 - Carregando dados. O método send() não foi chamado.
+2 - Dados carregados. O método send() não foi chamado mas cabeçalhos de resposta HTTP estão disponíveis.
+3 - Modo iterativo. Propriedade responseText contém dados parciais.
+4 - Concluído.
+
+reponseText -> retorno
+
+Status
+200 - OK
+505 - erro de servidor
+404 - não encontrado
